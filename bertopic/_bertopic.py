@@ -536,7 +536,7 @@ class BERTopic:
         predictions = documents.Topic.to_list()
 
         return predictions, self.probabilities_
-
+    
     def transform(
         self,
         documents: Union[str, List[str]],
